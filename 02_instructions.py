@@ -34,4 +34,5 @@ played_before = yes_no("Have you played the game before")
 
 if played_before == "no":
     instructions()
-print("Program Continues")
+elif played_before == "yes":
+    print("Program Continues")
