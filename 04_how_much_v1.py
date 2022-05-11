@@ -14,12 +14,9 @@ while not valid:
         if 0 < response <= 10:
             print("You have asked to play with ${}".format(response))
 
-
-
         # output an error
         else:
             print(error)
-
 
     except ValueError:
         print(error)
